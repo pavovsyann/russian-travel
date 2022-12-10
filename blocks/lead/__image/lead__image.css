@@ -1,0 +1,5 @@
+.lead__image {
+  z-index: -1;
+  width: 100%;
+  max-width: 984px;
+}
