@@ -1,10 +1,30 @@
 .place__paragraph {
-  grid-column: 2;
-  grid-row: 2;
   font-weight: 400;
   font-size: 18px;
-  line-height: 29.34px;
+  line-height: 29px;
   margin: 0;
   padding: 0;
   max-width: 484px;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__paragraph {
+    max-width: 456px;    
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place__paragraph {
+    max-width: 352px;
+    padding: 0 16px;
+  }
+}
+

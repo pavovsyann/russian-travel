@@ -2,31 +2,30 @@
   display: flex;
   flex-direction: column;
   align-items: start;
-  max-width: 984px;
-  padding-top: 114px;
-  margin:0 auto;
+  max-width: 690px;
+  padding-left: 148px; 
+  margin-bottom: 92px;
 }
 
 @media screen and (max-width: 1024px) {
   .intro {
     max-width: 690px;
-   
-}
-
+    padding-left: 48px; 
+  }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
     max-width: 720px;
-   
+    margin-bottom: 88px;
+    padding: 0 24px;  
+  }
 }
 
-}
-
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 425px) {
   .intro {
-    min-width: 288px;
-   
-}
-
+    max-width: 288px;
+    margin-bottom: 64px;
+    padding: 0 16px;
+  }
 }
