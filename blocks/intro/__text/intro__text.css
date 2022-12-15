@@ -5,4 +5,11 @@
   padding: 40px 0 33px;
   margin: 0;
   max-width: 690px;
+  width: 100%;
+}
+
+@media screen and (max-width: 320px) {
+  .intro__text {
+    padding-bottom: 33px;
+  }
 }

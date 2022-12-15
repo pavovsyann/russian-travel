@@ -1,4 +1,11 @@
 .lead__image {
   z-index: -1;
   width: 100%;
+  max-width: 984px;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image {
+    max-width: 768px;
+  }
 }

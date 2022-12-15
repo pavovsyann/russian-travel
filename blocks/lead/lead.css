@@ -14,18 +14,16 @@
     padding: 0 48px;
   }
 }
-
 @media screen and (max-width: 768px) {
   .lead {
-    max-width: 768px;
     padding: 0;
-    margin-bottom: 88px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 320px) {
   .lead {
-    max-width: 320px;
     margin-bottom: 64px;
+    max-width: 320px;
+    padding: 0;
   }
 }

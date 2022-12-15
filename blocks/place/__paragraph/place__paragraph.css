@@ -9,7 +9,8 @@
 
 @media screen and (max-width: 1024px) {
   .place__paragraph {
-    max-width: 456px;    
+    font-size: 18px;
+    line-height: 29px;
   }
 }
 
@@ -17,14 +18,11 @@
   .place__paragraph {
     font-size: 16px;
     line-height: 26px;
-    max-width: 352px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 320px) {
   .place__paragraph {
-    max-width: 352px;
     padding: 0 16px;
   }
 }
-

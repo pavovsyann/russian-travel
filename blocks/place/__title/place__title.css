@@ -11,14 +11,14 @@
   .place__title {
     font-size: 42px;
     line-height: 46px;
-    max-width: 340px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 320px) {
   .place__title {
     font-size: 32px;
     line-height: 35px;
     padding: 0 16px;
+    max-width: 288px;
   }
 }

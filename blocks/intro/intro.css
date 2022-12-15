@@ -9,8 +9,7 @@
 
 @media screen and (max-width: 1024px) {
   .intro {
-    max-width: 690px;
-    padding-left: 48px; 
+    padding-left: 48px;
   }
 }
 
@@ -18,14 +17,15 @@
   .intro {
     max-width: 720px;
     margin-bottom: 88px;
-    padding: 0 24px;  
+    padding: 0 24px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 320px) {
   .intro {
-    max-width: 288px;
     margin-bottom: 64px;
+    padding: 0;
     padding: 0 16px;
+    max-width: 288px;
   }
 }

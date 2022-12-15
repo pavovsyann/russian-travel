@@ -2,23 +2,29 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 0;
+  width: 100%;
+  height: 100%;
 }
-
 @media screen and (max-width: 1024px) {
   .page__container {
     max-width: 1024px;
   }
 }
-  
-@media screen  and (max-width: 768px) {
+
+@media screen and (max-width: 768px) {
   .page__container {
     max-width: 768px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 480px) {
+  .page__container {
+    max-width: 480px;
+  }
+}
+
+@media screen and (max-width: 320px) {
   .page__container {
     max-width: 320px;
   }
 }
-
